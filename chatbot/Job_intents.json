@@ -1,0 +1,134 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi there",
+              "hey",
+              "How are you",
+              "is anyone there?",
+              "Hey",
+              "Hola",
+              "Hello",
+              "Good day",
+              "Hey",
+              "Ekse",
+              "Hi"
+          ],
+          "responses": [
+              "Hi stranger",
+              "Yebo yes,How can i help you?",
+              "hey,whatsup",
+              "Hola",
+              "hey dude",
+              "you again"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Ok bye",
+              "Bye Bye"
+          ],
+          "responses": [
+              "See you!",
+              "Have a nice day",
+              "Sure Bye",
+              "Later dude",
+              "Sayonaara",
+              "Peace out",
+              "Sure dude",
+              "Ciao"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Awesome,Thanks",
+              "Thanks for helping me"
+          ],
+          "responses": [
+              "Happy to help!",
+              "Anytime",
+              "My Pleasure",
+              "Your are welcome",
+              "Sure dude"
+          ]
+      },
+      {
+          "tag": "noanswer",
+          "patterns": [],
+          "responses": [
+              "Sorry can't understand you",
+              "Please give me more info",
+              "No sure i understand",
+              "I am still here dude"
+          ]
+      },
+      {
+          "tag": "name",
+          "patterns": [
+              "What is your name?",
+              "Whats Your Name",
+              "Tell me your name",
+              "Who are you",
+              "Ungubani",
+              "Tell me about yourself"
+          ],
+          "responses": [
+              "I am mudita",
+              "My name is mudita",
+              "Your can call me M in short",
+              "I am mudita my friends call me M",
+              "Mudita this side"
+          ]
+      },
+      {
+          "tag": "options",
+          "patterns": [
+              "What do you do",
+              "How can you help",
+              "What do you know",
+              "what is your purpose",
+              "How can you help"
+          ],
+          "responses": [
+              "I can tell you about Delhi",
+              "I can give you interesting food items list in Delhi"
+          ]
+      },
+      {
+          "tag": "Delhi_info",
+          "patterns": [
+              "Delhi",
+              "What can you tell me about Delhi",
+              "Tell me about Delhi",
+              "What about Delhi",
+              "What do you know about delhi"
+          ],
+          "responses": [
+              "Delhi is Capitol of India",
+              "Delhi has best continental food in india",
+              "Delhi has great monuments and tourism places"
+          ]
+      },
+      {
+          "tag": "Delhi_facts",
+          "patterns": [
+              "Delhi facts",
+              "Give me some facts about SA",
+              "Delhi Markets"
+          ],
+          "responses": [
+              "Delhi has a fancy history to know about",
+              "Delhi has various market places to visit for such as Lajpat Nagar,Chandni chowk and Karol Bagh"
+          ]
+      }
+  ]
+}
